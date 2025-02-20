@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+    font-family: "Gabarito", serif;
+}
+
+.navbar {
+    padding: 10px;
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+  
+  
+    background-color: white;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.navbar__s1 {
+    display: flex;
+
+}
+
+.navbar__s1__title {
+    display: inline-block;
+
+}
+
+
+.navbar__s2 {
+    gap: 50px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    padding-right: 100px;
+    cursor: pointer;
+
+}
+
+
+
+.nav__sign{
+    padding: 10px;
+   
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+}
+.nav__inr{
+    padding: 10px;
+    
+   border:none;
+    color: black;
+    border-radius: 100px;
+    margin-right:10px;
+}
+
+
+
+.course-card{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 1%;
+    cursor: pointer;
+}
+
+
+
+
+.title__1 {
+    padding: 60px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bar {
+
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
+.search input:focus{
+    outline: none;
+}
+.search{
+   
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 20%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+
+.search input{
+    width:100%;
+    border: none;
+    
+}
+.search button{
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+    
+
+
+
+.navbar__5 h2 {
+    padding: 10px;
+    gap: 10px;
+    font-size: 16px;
+    border: solid black 0px;
+    background-color: lightgreen;
+
+
+    border-radius: 30px;
+
+}
+
+.trip__1 {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.trip__1 img {
+    width: 85%;
+
+}
+
+.recommended img:hover {
+    transform: scaley(1.1);
+    transition-duration: 1s;
+}
+
+
+.recommended {
+    padding: 50px;
+
+
+}
+
+.recommended__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.course-card img {
+    height: 70%;
+    width: 100%;
+
+
+
+
+
+}
+
+
+.popular {
+    padding: 10px;
+}
+
+.popular img:hover {
+
+    transform: scaley(1.1);
+    transition-duration: 1s;
+}
+
+
+.p1 p:hover {
+
+    border-bottom: 2px black solid;
+}
+
+
+
+
+
+
+.popular__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+footer {
+    background-color: #FAF1ED;
+    margin-top: 50px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer{
+    width:75%;
+    
+}
+.footer1{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.footerbottom,.footbt1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footbt1{
+    display: flex;
+    align-items: center;
+}
+.scm{
+    display: flex;
+    gap: 20px;
+}
+
+
+@media screen and (max-width:600px) {
+body{
+
+font-size: 10px;
+
+}
+}
+@media screen and (max-width:600px) {
+    .footer{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+.recommended{
+    font-size: 10px;
+}
+
+
+
+}
+
+@media screen and (max-width:600px) {
+.course-card{
+    font-size: 10px;
+}
+}
+
+
+
+
+@media screen and (max-width:600px) {
+.popular{
+    font-size: 10px;
+    padding: 10px;
+    margin: 10px;
+    m
+}
+}
+
+
+
+@media screen and (max-width:600px) {
+.icon{
+    font-size: 10px;
+    padding-left: 50%px;
+    
+}
+
+
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .navbar__s3{
+        margin-right: 100px;
+    }
+}
